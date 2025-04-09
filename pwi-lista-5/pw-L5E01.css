@@ -1,0 +1,99 @@
+body {
+  background-image: url('https://www.fcbrusque.sc.gov.br/wp-content/uploads/2021/06/LINKS.jpeg');
+  background-size: cover;
+  background-position: center;
+  
+}
+h1 {
+  color: blanchedalmond;
+  font-size: xx-large;
+  text-align: center;
+}
+
+h2{
+  color: #50594e;
+}
+
+h3 {
+  color: #e8e0cb;
+}
+
+p {
+  color: #50594e;
+}
+
+.container {
+  background-image: url('assets\ l5/for beginners.png');
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 330px; 
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+a:link {
+  color: #50594e;
+}
+a:hover {
+  color: green; 
+}
+a:active {
+  color: pink; 
+}
+
+.intro{
+  color: blanchedalmond;
+  font-size: large;
+  background-color: #50594e;
+  text-align: center;
+  font-weight: bold;
+}
+
+.descricao {
+  color: blanchedalmond; 
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;  
+}
+
+.coluna {
+  width: 45%;
+  border: 5px solid #50594e;
+  background-color: #e8e0cb;
+  text-align: center;
+  display: inline-block; 
+  border-radius: 10px;
+}
+
+.caixa {
+  background-color: #50594e;
+  text-align: center;
+  border: 1px solid blanchedalmond;
+  padding: 15px;
+  margin: 25px auto;
+  width: 60%;
+  border-radius: 10px;
+}
+
+button {
+  background: linear-gradient(50deg, #e8e0cb, #50594e);
+  color: #50594e;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+button:hover {
+  border: 2px solid #e8e0cb;
+  background: transparent;
+  color: #e8e0cb;
+}
+
