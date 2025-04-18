@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Craftsy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="logo">Craftsy</div>
+    <nav class="menu">
+      <a href="#">Smartphones</a>
+      <a href="#">Tablets</a>
+      <a href="#">Computadores</a>
+    </nav>
+    <div class="auth-links">
+      <a href="index.html">home</a>
+      <a href="login.html">Login</a>
+      <a href="registrar.html">Registrar</a>
+    </div>
+    <body style="background-image: url('assets/bg-2.png');">
+    </body>
+  </header>
+
+  <main>
+    <h1>REGISTRAR</h1>
+    <form>
+      <label>Nome<br>
+        <input type="text" placeholder="Seu nome aqui" required>
+      </label><br>
+
+      <label>Email<br>
+        <input type="email" placeholder="email@email.com" required>
+      </label><br>
+
+      <label>Senha<br>
+        <input type="password" placeholder="senha" required>
+      </label><br>
+
+      <label>País de nascimento<br>
+        <select required>
+          <option value="">--Selecione--</option>
+          <option>Chile</option>
+          <option>Brasil</option>
+          <option>Argentina</option>
+        </select>
+      </label><br>
+
+      <label>Gênero <br>
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="feminino"> Feminino
+        <input type="radio" name="genero" value="nao-dizer"> Prefiro não dizer<br><br>
+
+      <label>Hobbies</label><br>
+      <input type="checkbox" value="guitarra"> Guitarra
+      <input type="checkbox" value="futebol"> Futebol
+      <input type="checkbox" value="tenis"> Tênis
+      <input type="checkbox" value="programacao"> Programação<br><br>
+
+      <label>Comentários</label><br>
+      <textarea rows="4" cols="30"></textarea><br><br>
+
+      <input type="checkbox"> Aceito os termos e condições.<br><br>
+        
+      <input type="button" value="Registrar"/>
+      <input type="button" value="Cancelar" />
+      <br>
+      <button type="submit">Registrar</button>
+      <button type="reset">Cancelar</button>
+    </form>
+  </main>
+</body>
+</html>

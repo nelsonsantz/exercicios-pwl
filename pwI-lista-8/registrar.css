@@ -1,0 +1,68 @@
+body {
+  background-color: #aef0ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff4500;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #aef0ff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, select, textarea {
+  margin: 5px 0;
+  padding: 5px;
+  width: 90%;
+  max-width: 12px;
+}
+
+input[type="submit"], input[type="reset"],
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #00bfff;
+  border: none;
+  color: #aef0ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #009acd;
+}
+
+/* Estilo para os grupos de opções */
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  text-align: left;
+}
