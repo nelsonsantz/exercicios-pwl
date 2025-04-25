@@ -70,6 +70,7 @@ body {
   }
   
   .tutoriais ul {
+    background: white;
     list-style: none;
     padding: 0;
   }
@@ -78,6 +79,7 @@ body {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+    background: white;
   }
   
   .publicidade img {
@@ -90,7 +92,7 @@ body {
     margin: 50px auto;
     background-color: transparent;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     color: #333;
   }
   
@@ -109,8 +111,8 @@ body {
   
   .lembrar {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: right;
+    justify-content: right;
     gap: 5px;
     font-size: 14px;
   }
